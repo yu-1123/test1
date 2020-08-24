@@ -1,0 +1,40 @@
+shutdown -s -t 600十分钟关机
+shutdown -a 取消关机
+shutdown -r -t 600重新设置十分钟重启
+
+
+#include<stdlib.h>
+#include<stdio.h>
+void main()//主要的一个程序的入口点 main是你家门牌号（）是你家大门如果你想程序被执行，那么必然在main函数
+//或任意一个函数中
+{
+
+	//system("shutdown -s -t 6000");
+	//system("shutdown -a");
+	printf("hh");
+	getchar();//等待用户输入任意字符
+
+}
+
+
+
+
+#include<stdio.h>
+#include <stdlib.h>
+void main()
+{
+	printf("dsf");
+	system("pause");//等待用户输入按下任意键
+}
+
+
+打开计算机
+
+#include<stdio.h>
+#include <stdlib.h>
+void main()
+{
+	system("calc");
+	system("calc");
+	system("pause");//等待用户输入按下任意键
+}
